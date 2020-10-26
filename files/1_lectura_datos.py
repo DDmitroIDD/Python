@@ -5,10 +5,10 @@ nombre = input(' ')
 print ("Buen día " + nombre)
 
 
-running = True #
-while running:
-    valor_1 = 0
-    valor_2 = 0
+# running = True #
+while True: # minus one variable and minus one line
+    # valor_1 = 0
+    # valor_2 = 0 # minus two lines
     print ("---Calculadora---")
     print ("1- Sumar")
     print ("2- Multiplicar")
@@ -29,4 +29,5 @@ while running:
         multiplicacion = valor_1 * valor_2
         print ("El resultado es: %d" % multiplicacion)
     elif op == 3:
-        running = False
+        break # exit loop
+        # running = False
